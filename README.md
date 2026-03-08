@@ -7,7 +7,7 @@ By this point, `C` is a *minimal* clue set — no single clue can be removed wit
 ---
 
 **Summary of the flow:**
-```
+
 Random solution grid
         ↓
 Generate ALL true clues (over-determined)
@@ -17,3 +17,4 @@ Repeatedly attempt to remove clues (weighted toward simpler ones)
 Keep removal only if Z3 confirms solution is still unique
         ↓
 Stop when no more clues can be removed → minimal puzzle
+```
